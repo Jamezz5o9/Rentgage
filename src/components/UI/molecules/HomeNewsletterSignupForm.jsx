@@ -16,9 +16,11 @@ const HomeNewsletterSignupForm = () => {
   }
 
   return (
-    <div className="max-w-2xl mx-auto text-left">
+    <div className="max-w-2xl mx-auto">
       <div className="sm:flex justify-center gap-3 mx-auto sm:h-16">
-        <RTextField 
+    
+      {/* Making new changes*/}
+     { /* <RTextField 
           placeholder="Email Address"
           type="email"
           name="email"
@@ -28,8 +30,10 @@ const HomeNewsletterSignupForm = () => {
           onValidInput={handleInputSuccess}
           className="py-3.5 mb-3 sm:mb-0"
         />
-        <RButton onClick={() => console.log(formData)}>
-          Join the waitlist
+     */ }
+
+        <RButton onClick={() => console.log(formData)}><a href="https://forms.gle/YZMnrKVWbuE9q1NK8" target="_blank">Join the waitlist</a>
+          
         </RButton>
       </div>
       <RInputError> 
