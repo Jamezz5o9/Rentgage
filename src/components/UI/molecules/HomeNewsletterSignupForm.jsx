@@ -19,7 +19,7 @@ const HomeNewsletterSignupForm = () => {
     <div className="max-w-2xl mx-auto">
       <div className="sm:flex justify-center gap-3 mx-auto sm:h-16">
     
-      {/* Making new changes*/}
+      {/* Making new changes and i'm not ready to use*/}
      { /* <RTextField 
           placeholder="Email Address"
           type="email"
